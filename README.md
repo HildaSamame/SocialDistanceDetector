@@ -10,6 +10,11 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 ## Base del proyecto 📓
 
+Para el desarrollo del proyecto se tiene en cuenta la siguiente información:
+* Vídeo (https://www.robots.ox.ac.uk/ActiveVision/Research/Projects/2009bbenfold_headpose/Datasets/TownCentreXVID.avi)
+* Datos relacionados al bounding box de cada persona en cada frame del video (https://www.robots.ox.ac.uk/ActiveVision/Research/Projects/2009bbenfold_headpose/Datasets/TownCentre-groundtruth.top)
+Estos datos están en formato CSV, donde cada línea contiene la siguiente información:
+- numPersona: es un único identificador para cada persona
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
 Mira **Deployment** para conocer como desplegar el proyecto.
@@ -86,12 +91,9 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 
 ## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
+Los colaboradores del presente proyecto son:
 
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
+* **Hilda Samamé Jimenez** - [hildasamame](https://github.com/HildaSamame)
 
 ## Licencia 📄
 
