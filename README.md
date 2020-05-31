@@ -1,6 +1,6 @@
 # Social Distance Grapher
 
-_Acá va un párrafo que describa lo que es el proyecto_
+_Proyecto de mitad de semestre del curso de "Computación Gráfica" de la Maestría en Informática con mención en Ciencias de la Computación de la Pontificia Universidad Católica del Perú_
 
 ## Propósito 💡
 
