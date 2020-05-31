@@ -1,10 +1,10 @@
 # Social Distance Grapher
 
-_Proyecto de mitad de semestre del curso de "Computación Gráfica" de la Maestría en Informática con mención en Ciencias de la Computación de la Pontificia Universidad Católica del Perú_
+Proyecto de mitad de semestre del curso de _"Computación Gráfica"_ de la Maestría en Informática con mención en Ciencias de la Computación de la Pontificia Universidad Católica del Perú
 
 ## Propósito 💡
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+El presente proyecto tiene como propósito detectar en un video a aquellas personas que cumplen o no las normativas de distanciamento social que se rige por el COVID-19, partiendo de los datos detección de personas que ha sido procesado anteriormente.
 
 Mira **Deployment** para conocer como desplegar el proyecto.
 
