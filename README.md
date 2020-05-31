@@ -14,7 +14,7 @@ Para el desarrollo del proyecto se tiene en cuenta la siguiente información:
 * Vídeo (https://www.robots.ox.ac.uk/ActiveVision/Research/Projects/2009bbenfold_headpose/Datasets/TownCentreXVID.avi)
 * Datos relacionados al bounding box de cada persona en cada frame del video (https://www.robots.ox.ac.uk/ActiveVision/Research/Projects/2009bbenfold_headpose/Datasets/TownCentre-groundtruth.top)
 Estos datos están en formato CSV, donde cada línea contiene la siguiente información:
-- numPersona: es un único identificador para cada persona
+  * numPersona: es un único identificador para cada persona
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
 Mira **Deployment** para conocer como desplegar el proyecto.
