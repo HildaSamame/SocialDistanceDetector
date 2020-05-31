@@ -15,7 +15,12 @@ Para el desarrollo del proyecto se tiene en cuenta la siguiente información:
 * Datos relacionados al bounding box de cada persona en cada frame del video (https://www.robots.ox.ac.uk/ActiveVision/Research/Projects/2009bbenfold_headpose/Datasets/TownCentre-groundtruth.top)
 Estos datos están en formato CSV, donde cada línea contiene la siguiente información:
   * numPersona: es un único identificador para cada persona
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+  * numFrame: es el número de frame (contado desde cero)
+  * headValid,bodyValid: indica si los bounding boxes de la cabeza y el cuerpo son válidos
+  * headLeft,headTop,headRight,headBottom: es el bounding box de la cabeza
+  * bodyLeft,bofyTop,bodyRight,bodyBottom: es el bounding box del cuerpo
+
+_Teniendo esto en cuenta... ¡sigamos!._
 
 Mira **Deployment** para conocer como desplegar el proyecto.
 
