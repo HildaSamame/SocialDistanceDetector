@@ -38,26 +38,11 @@ A través de Google Earth, se obtuvo la distancia de la pista de dicha calle, qu
 
 <img src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/distancestreet.JPG" data-canonical-src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/distancestreet.JPG" width="400" height="400" />
 
-
-_Dí cómo será ese paso_
-
-```
-Da un ejemplo
-```
-
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
 ## Ejecutando las pruebas ⚙️
 
 _Explica como ejecutar las pruebas automatizadas para este sistema_
 
-### Analice las pruebas end-to-end 🔩
+### Pero antes... necesitamos la matriz de transformación 🔩
 
 _Explica que verifican estas pruebas y por qué_
 
