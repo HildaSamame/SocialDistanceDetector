@@ -43,12 +43,16 @@ A través de Google Earth, se obtuvo la distancia de la pista de dicha calle, qu
 ### Archivos necesarios
 
 * 📋 UTILITARIOS:
-_Explica como ejecutar las pruebas automatizadas para este sistema_
+  * ___utils/functions.py___: archivo .py donde están las funciones utilizadas en el programa principal, estas funciones abarcan el procesamiento del vídeo para obtener quiénes cumplen o no cumplen el distanciamiento social. 
+  * ___utils/view.py___: archivo .py donde están las funciones que permiten implementar la generación de la vista.
 
 * 📋 PROCESAMIENTO:
-** ___preprocess.py___: archivo .py que permite obtener la matriz de homografía en un archivo txt, para ser utilizada en el programa principal. Además, se realiza el cálculo del ancho de la pista en píxels.
+  * ___preprocess.py___: archivo .py que permite obtener la matriz de homografía en un archivo txt, para ser utilizada en el programa principal. Además, se realiza el cálculo del ancho de la pista en píxels.
 
 * 📋 ARCHIVOS DE SALIDA:
+  * ___output/resultado.avi___: archivo de vídeo con el procesamiento ejecutado, se muestra los bounding boxes, el eye's bird view y las estadísticas generadas por cada frame.
+  * ___output/infractors.csv___: archivo csv que contiene los ids de las personas que no cumplieron con el distanciamiento social, incluye el número de frame y el tiempo (minutos y segundos) de detección.
+
 ### Pero antes... necesitamos la matriz de transformación 🔩
 
 _Explica que verifican estas pruebas y por qué_
