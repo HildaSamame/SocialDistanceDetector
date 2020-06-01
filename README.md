@@ -1,4 +1,4 @@
-# Social Distance Grapher
+# Social Distance Plotter
 
 Proyecto de mitad de semestre del curso de _"Computación Gráfica"_ de la Maestría en Informática con mención en Ciencias de la Computación de la Pontificia Universidad Católica del Perú
 
