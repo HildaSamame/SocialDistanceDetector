@@ -38,6 +38,8 @@ A través de Google Earth, se obtuvo la distancia de la pista de dicha calle, qu
 
 <img src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/distancestreet.JPG" data-canonical-src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/distancestreet.JPG" width="400" height="400" />
 
+### Explicación de la metodología 🛠️
+
 ## Ejecutando las pruebas ⚙️
 
 ### Archivos necesarios
@@ -62,8 +64,13 @@ A través de Google Earth, se obtuvo la distancia de la pista de dicha calle, qu
 Ejecutar el programa __preprocess.py__ a través de la consola. _NOTA: Primero ir al directorio donde está el archivo__ 
 
 ```
-python transformation_matrix.py
+python preprocess.py
 ```
+
+Verificar que se haya creado el archivo __matrix.txt__.
+
+### Procesamiento 🔩
+Ejecutar el programa __main_program.py__ a través de la consola. _NOTA: Primero ir al directorio donde está el archivo__ 
 
 _Explica que verifican estas pruebas y por qué_
 
