@@ -6,8 +6,6 @@ Proyecto de mitad de semestre del curso de _"Computación Gráfica"_ de la Maest
 
 El presente proyecto tiene como propósito detectar en un video a aquellas personas que cumplen o no las normativas de distanciamento social que se rige por el COVID-19, partiendo de los datos detección de personas que ha sido procesado anteriormente.
 
-Mira **Deployment** para conocer como desplegar el proyecto.
-
 ## Base del proyecto 📓
 
 Para el desarrollo del proyecto se tiene en cuenta la siguiente información:
@@ -21,9 +19,7 @@ Estos datos están en formato CSV, donde cada línea contiene la siguiente infor
   * bodyLeft,bofyTop,bodyRight,bodyBottom: es el bounding box del cuerpo
 
 _Teniendo esto en cuenta... ¡sigamos!._
-```
-Mira **Deployment** para conocer como desplegar el proyecto.
-```
+
 ### Pre-requisitos 📋
 
 El presente trabajo fue implementado utilizando:
@@ -35,9 +31,7 @@ Da un ejemplo
 ```
 
 ### Instalación 🔧
-```
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-```
+
 _Dí cómo será ese paso_
 
 ```
@@ -104,7 +98,7 @@ Los colaboradores del presente proyecto son:
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+Este proyecto está bajo la Licencia FREE ;)
 
 ## Expresiones de Gratitud 🎁
 
