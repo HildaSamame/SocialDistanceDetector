@@ -31,10 +31,12 @@ El presente trabajo fue implementado utilizando:
 La calle del vídeo a analizar corresponde a Cornmarket and Market St. in Oxford, England. (https://megapixels.cc/oxford_town_centre/). 
 
 
-<img src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/cornmaker.JPG" data-canonical-src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/cornmaker.JPG" width="500" height="500" />
+<img src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/cornmaker.JPG" data-canonical-src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/cornmaker.JPG" width="500" height="300" />
 
 A través de Google Earth, se obtuvo la distancia de la pista de dicha calle, que corresponde a 5.51 m. _Esto nos ayudará para determinar la distancia mínima a cumplir!_.
-<img src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/distancestreet.JPG" data-canonical-src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/distancestreet.JPG" width="500" height="500" />
+
+
+<img src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/distancestreet.JPG" data-canonical-src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/distancestreet.JPG" width="400" height="400" />
 
 
 _Dí cómo será ese paso_
