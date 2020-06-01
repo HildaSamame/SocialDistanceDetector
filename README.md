@@ -42,18 +42,28 @@ A través de Google Earth, se obtuvo la distancia de la pista de dicha calle, qu
 
 ### Archivos necesarios
 
-* 📋 UTILITARIOS:
+* 📋 __UTILITARIOS__:
   * ___utils/functions.py___: archivo .py donde están las funciones utilizadas en el programa principal, estas funciones abarcan el procesamiento del vídeo para obtener quiénes cumplen o no cumplen el distanciamiento social. 
   * ___utils/view.py___: archivo .py donde están las funciones que permiten implementar la generación de la vista.
 
-* 📋 PROCESAMIENTO:
-  * ___preprocess.py___: archivo .py que permite obtener la matriz de homografía en un archivo txt, para ser utilizada en el programa principal. Además, se realiza el cálculo del ancho de la pista en píxels.
+* 📋 __PRE PROCESAMIENTO__:
+  * ___preprocess/preprocess.py___: archivo .py que permite obtener la matriz de homografía en un archivo txt, para ser utilizada en el programa principal. Además, se realiza el cálculo del ancho de la pista en píxels.
+  * ___preprocess/matrix.txt___: archivo txt donde se guarda la matriz de homografía para luego ser utilizada en el programa principal
+  * ___preprocess/frame_0.jpg__: imagen del primer frame del vídeo, utilizado para calcular la transformación del Bird's Eye View.
 
-* 📋 ARCHIVOS DE SALIDA:
+* 📋 __PROGRAMA PRINCIPAL__:
+  * ___main_program.py___: archivo .py que ejecuta las funciones de detección de cumplimiento del distanciamiento social, genera una vista del vídeo original con el Bird's Eye View.
+
+* 📋 __ARCHIVOS DE SALIDA__:
   * ___output/resultado.avi___: archivo de vídeo con el procesamiento ejecutado, se muestra los bounding boxes, el eye's bird view y las estadísticas generadas por cada frame.
   * ___output/infractors.csv___: archivo csv que contiene los ids de las personas que no cumplieron con el distanciamiento social, incluye el número de frame y el tiempo (minutos y segundos) de detección.
 
-### Pero antes... necesitamos la matriz de transformación 🔩
+### Pre procesamiento 🔩
+Ejecutar el programa __preprocess.py__ a través de la consola. _NOTA: Primero ir al directorio donde está el archivo__ 
+
+```
+python transformation_matrix.py
+```
 
 _Explica que verifican estas pruebas y por qué_
 
