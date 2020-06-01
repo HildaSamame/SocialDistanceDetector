@@ -40,8 +40,15 @@ A través de Google Earth, se obtuvo la distancia de la pista de dicha calle, qu
 
 ## Ejecutando las pruebas ⚙️
 
+### Archivos necesarios
+
+* 📋 UTILITARIOS:
 _Explica como ejecutar las pruebas automatizadas para este sistema_
 
+* 📋 PROCESAMIENTO:
+** ___preprocess.py___: archivo .py que permite obtener la matriz de homografía en un archivo txt, para ser utilizada en el programa principal. Además, se realiza el cálculo del ancho de la pista en píxels.
+
+* 📋 ARCHIVOS DE SALIDA:
 ### Pero antes... necesitamos la matriz de transformación 🔩
 
 _Explica que verifican estas pruebas y por qué_
