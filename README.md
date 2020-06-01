@@ -20,17 +20,21 @@ Estos datos están en formato CSV, donde cada línea contiene la siguiente infor
 
 _Teniendo esto en cuenta... ¡sigamos!._
 
-### Pre-requisitos 📋
+### Construido con 🛠️
 
 El presente trabajo fue implementado utilizando:
 * Python - 3.7.6
 * OpenCV – 4.2.0
 * Spyder - 4.0.1 (IDE de desarrollo)
-```
-Da un ejemplo
-```
 
-### Instalación 🔧
+### Consideraciones Previas 🔧
+La calle del vídeo a analizar corresponde a Cornmarket and Market St. in Oxford, England (https://megapixels.cc/oxford_town_centre/). 
+
+
+
+A través de Google Earth, se obtuvo la distancia de la pista de dicha calle, que corresponde a 5.51 m. _Esto nos ayudará para determinar la distancia mínima a cumplir!_.
+
+
 
 _Dí cómo será ese paso_
 
@@ -70,7 +74,7 @@ Da un ejemplo
 
 _Agrega notas adicionales sobre como hacer deploy_
 
-## Construido con 🛠️
+## Construido con 📋
 
 _Menciona las herramientas que utilizaste para crear tu proyecto_
 
@@ -98,7 +102,7 @@ Los colaboradores del presente proyecto son:
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia FREE ;)
+Este proyecto está bajo... _la Licencia IT'S FREE ;)_
 
 ## Expresiones de Gratitud 🎁
 
