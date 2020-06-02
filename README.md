@@ -94,7 +94,7 @@ Cuando sobrepasa el umbral, aparece el mensaje de alerta.
 <img src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/result_02.JPG" data-canonical-src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/result_02.JPG" width="1000" />
 
 
-El vídeo de salida se genera en la carpeta __output__, en el siguiente link hay un vídeo de duración de 1 minuto. (https://youtu.be/io2HgVkbZf4).
+El vídeo de salida se genera en la carpeta __output__, en el siguiente link hay un vídeo de duración de 2 minutos. (https://youtu.be/io2HgVkbZf4).
 
 ### Seteo de variables 🛠️
 En el programa __main_program.py__ se setean las variables que serán utilizadas a lo largo del procesamiento del vídeo.
