@@ -67,11 +67,11 @@ Ejecutar el programa __preprocess.py__ a través de la consola. _NOTA: Primero i
 ```
 python preprocess.py
 ```
-<img src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/warp_01.png" data-canonical-src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/warp_01.png" width="540" height="540" />
+<img src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/warp_01.png" data-canonical-src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/warp_01.png" width="480" height="900" />
 
 
 
-<img src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/warp_02.png" data-canonical-src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/warp_02.png" width="540" height="540" />
+<img src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/warp_02.png" data-canonical-src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/warp_02.png" width="480" height="480" />
 
 Verificar que se haya creado el archivo __matrix.txt__.
 
