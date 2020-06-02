@@ -88,13 +88,13 @@ python main_program.py
 Se visualiza el resultado: 
 
 
-<img src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/result_01.JPG" data-canonical-src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/result_01.JPG" width="990" height="540" />
+<img src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/result_01.JPG" data-canonical-src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/result_01.JPG" width="1000" height="540" />
 
 
 Cuando sobrepasa el umbral, aparece el mensaje de alerta.
 
 
-<img src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/result_02.JPG" data-canonical-src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/result_02.JPG" width="990" height="540" />
+<img src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/result_02.JPG" data-canonical-src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/result_02.JPG" width="1000" height="540" />
 
 
 El vídeo de salida se genera en la carpeta __output__, en el siguiente link hay un vídeo de duración de 1 minuto. (https://youtu.be/HrlJvIiEqzg).
