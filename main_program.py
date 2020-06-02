@@ -42,7 +42,7 @@ white           = [255,255,255]
 color_border    = [105,105,105]
 color_header    = [255,255,255]
 color_footer    = [169,169,169]
-main_title      = 'Social Distance Plotter'
+main_title      = 'Social Distance Detector'
 eye_title       = 'Birds Eye View'
 flag_window     = False
 
@@ -231,7 +231,7 @@ while(True):
     vcat2 = vi.create_header_title(result, eye_title, color_header, color_border, False)
     f_frame = cv2.hconcat((vcat, vcat2))
     final_frame = vi.create_footer(f_frame, color_footer)
-    cv2.imshow('Social Distance Plotter',final_frame)
+    cv2.imshow('Social Distance Detector',final_frame)
     
     fps = cv2.getTickFrequency()/(cv2.getTickCount()-timer)
     
