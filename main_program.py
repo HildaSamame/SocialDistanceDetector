@@ -68,21 +68,22 @@ M = ut.eye_bird_view_matrix(MATRIX_FILE)
 infractors_list = []
 infractor_count = 0
 
+
+"""
+Crear el csv donde se guardan los resultados
+"""
 header_contents = ['Frame','Person_Id','Time']
-
-
 if os.path.exists(CSV_FILE):
   os.remove(CSV_FILE)
-
 ut.append_list_as_row(CSV_FILE, header_contents)
 
 
 while(True):
     """
-    Setear la mínima distancia en pixels.
+    Setear la mínima distancia en pixels y el porcentaje máximo de no cumplimiento.
     """
     min_distance = ut.minimum_distance_pixels(2)
-    maximum_var     = 50
+    maximum_var  = 50
     
     """
     Realizar resize al video a la mitad (RESIZE_FACTOR).
@@ -198,7 +199,10 @@ while(True):
     duration = num_frame/fps    
     minutes = int(duration/60)
     seconds = duration%60
-    #print('duration (M:S) = ' + str(minutes) + ':' + str(seconds))
+    
+    """
+    Calcular el porcentaje de personas que no cumplen el distanciamiento social, si supera el máximo permitido, se emite una alerta.
+    """
     
     df_temp = df[df['numFrame']<= num_frame]
     total_people = df_temp['numPersona'].unique().shape[0]
@@ -232,8 +236,9 @@ while(True):
     fps = cv2.getTickFrequency()/(cv2.getTickCount()-timer)
     
     
-    
-    
+    """
+    Crear CSV con la lista de infractores (id), número de frame y tiempo de detección.
+    """
     for aux_inf in aux_infractors:
         content = [num_frame, aux_inf, str(minutes) + ':' + str(seconds)]
         ut.append_list_as_row(CSV_FILE, content)    
