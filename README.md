@@ -38,14 +38,6 @@ A través de Google Earth, se obtuvo la distancia de la pista de dicha calle, qu
 
 <img src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/distancestreet.JPG" data-canonical-src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/distancestreet.JPG" width="400" height="400" />
 
-### Explicación de la metodología 🛠️
-
-1. 
-2. 
-3.
-4.
-
-
 ## Ejecutando las pruebas ⚙️
 
 ### Archivos necesarios
@@ -59,7 +51,7 @@ A través de Google Earth, se obtuvo la distancia de la pista de dicha calle, qu
 * 📋 __PRE PROCESAMIENTO__:
   * ___preprocess/preprocessing.py___: archivo .py que permite obtener la matriz de homografía en un archivo txt, para ser utilizada en el programa principal. Además, se realiza el cálculo del ancho de la pista en píxels.
   * ___preprocess/matrix.txt___: archivo txt donde se guarda la matriz de homografía para luego ser utilizada en el programa principal
-  * ___preprocess/frame_0.jpg__: imagen del primer frame del vídeo, utilizado para calcular la transformación del Bird's Eye View.
+  * ___preprocess/frame_0.jpg___: imagen del primer frame del vídeo, utilizado para calcular la transformación del Bird's Eye View.
 
 * 📋 __PROGRAMA PRINCIPAL__:
   * ___main_program.py___: archivo .py que ejecuta las funciones de detección de cumplimiento del distanciamiento social, genera una vista del vídeo original con el Bird's Eye View.
@@ -98,6 +90,31 @@ Cuando sobrepasa el umbral, aparece el mensaje de alerta.
 
 
 El vídeo de salida se genera en la carpeta __output__, en el siguiente link hay un vídeo de duración de 1 minuto. (https://youtu.be/HrlJvIiEqzg).
+
+### Seteo de variables 🛠️
+En el programa __main_program.py__ se setean las variables que serán utilizadas a lo largo del procesamiento del vídeo.
+ * Setear la distancia mínima a considerar en la función de cambio de metros a píxels.
+ * Setear el máximo porcentaje permitido para el incumplimiento del distanciamiento social.
+ * Setear los nombres de los archivos de entrada y salida.
+ * Setear los títulos de la visualización.
+
+_Observación:_ Para el presente proyecto, se realizó un resize del vídeo a la mitad, desde el cálculo de la matriz de homografía hasta el procesamiento, es por ello que una de las variables se llama __resize_factor__ y fue seteada con un valor de 2, que representa la mitad para nuestro programa.
+
+
+### Explicación de la metodología 🛠️
+
+ 
+1. Calcular la __matriz de homografía__ de la transformación de la imagen original al bird's eye view. 
+2. Iniciar la lectura del víde, __frame por frame__ del vídeo.
+3. Hallar el __centroide__ del bounding-box de cada persona existente en el frame.
+4. Transformar cada __centroide__ usando la __matriz de homografía__.
+5. Calcular la __distancia euclideana__ entre todos los centroides, aquellos que superen la distancia mínima son guardados como _bad_distances_ y los que cumplen, como _good_distances_.
+6. Los que correspondan a los que cumplen el distanciamiento, se les asigna el color verde para el bounding-box y para el punto en el bird eye view; los que no cumplen, se le asigna el color rojo.
+7. Calcular las __estadísticas__: total de personas que no cumplen el distancimiento social, porcentaje de no cumplimiento, total de personas. Utilizando el porcentaje de incumplimiento, mostrar un pop-up cuando se supere el umbral.
+8. Crear la __vista__ con ambos gráficos (bounding-boxes y bird's eye view).
+9. Mostrar los __resultados__.
+10. Guardar el frame resultante en el __vídeo de salida__ y los datos de los infractores en el __csv__.
+11. Repetir para todos los frames que se encuentran en el archivo de input.
 
 ## Autores ✒️
 
