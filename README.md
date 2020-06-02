@@ -107,8 +107,8 @@ Los colaboradores del presente proyecto son:
 
 ## Licencia 📄
 
-Este proyecto está bajo... _la Licencia 📢 IT'S FREE ;)_
-
+ * Este proyecto está bajo... _la Licencia 📢 IT'S FREE ;)_
+ * Este proyecto está bajo la Licencia GNU General Public License v3.0 - mira el archivo LICENSE.md para más detalles.
 
 
 ---
