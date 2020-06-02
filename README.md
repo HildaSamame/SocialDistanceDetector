@@ -4,7 +4,7 @@ Proyecto de mitad de semestre del curso de _"Computación Gráfica"_ de la Maest
 
 ## Propósito 💡
 
-El presente proyecto tiene como propósito detectar en un video a aquellas personas que cumplen o no las normativas de distanciamento social que se rige por el COVID-19, partiendo de los datos detección de personas que ha sido procesado anteriormente.
+El presente proyecto tiene como propósito detectar en un video a aquellas personas que cumplen o no las normativas de distanciamento social que se rige por el COVID-19, partiendo de los datos de detección de personas que ha sido procesado anteriormente.
 
 ## Base del proyecto 📓
 
