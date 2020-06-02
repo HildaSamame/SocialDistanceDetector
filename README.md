@@ -43,7 +43,9 @@ A través de Google Earth, se obtuvo la distancia de la pista de dicha calle, qu
 ## Ejecutando las pruebas ⚙️
 
 ### Archivos necesarios
-
+* 📋 __INPUT__:
+  * En la carpeta ___input___ colocar los archivos de entrada que corresponde al vídeo TownCentreXVID.avi y al csv TownCentre-groundtruth.top con los datos.
+  
 * 📋 __UTILITARIOS__:
   * ___utils/functions.py___: archivo .py donde están las funciones utilizadas en el programa principal, estas funciones abarcan el procesamiento del vídeo para obtener quiénes cumplen o no cumplen el distanciamiento social. 
   * ___utils/view.py___: archivo .py donde están las funciones que permiten implementar la generación de la vista.
