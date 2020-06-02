@@ -191,6 +191,16 @@ def filter_df_good_bad(df_frame, good_distances, bad_distances):
  
 
 def get_infractors(aux_infractors, infractors_list):
+    """
+    Objetivo: obtener la lista de infractores a través de su id.
+
+    Parámetros:
+        aux_infractors: lista auxiliar de infractores de cada frame.
+        infractors_list: lista final de los infractores.
+    
+    Salida:
+        Retorna la lista total de los infractores.
+    """
     for idPerson in aux_infractors:       
         if idPerson not in infractors_list:
             infractors_list.append(idPerson)
@@ -198,10 +208,17 @@ def get_infractors(aux_infractors, infractors_list):
     return infractors_list
 
 def append_list_as_row(file_name, list_of_elem):
-    # Open file in append mode
+    """
+    Objetivo: añadir líneas a un archivo csv.
+
+    Parámetros:
+        file_name: nombre de archivo csv.
+        list_of_elem: elementos para añadir.
+    
+    Salida:
+        Actualiza el archivo csv.
+    """
     with open(file_name, 'a+', newline='') as write_obj:
-        # Create a writer object from csv module
         csv_writer = writer(write_obj)
-        # Add contents of list as last row in the csv file
         csv_writer.writerow(list_of_elem)
         

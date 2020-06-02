@@ -14,7 +14,7 @@ from csv import writer
 
 def create_header_title(frame, title, color_header, color_border, logo):
     """
-    Objetivo: colocar el marco y título al frame. 
+    Objetivo: colocar el header y título al frame. 
 
     Parámetros:
         frame: frame a colocar el marco
@@ -50,6 +50,17 @@ def create_header_title(frame, title, color_header, color_border, logo):
 
 
 def create_footer(frame, color):
+    """
+    Objetivo: colocar el footer frame. 
+
+    Parámetros:
+        frame: frame a colocar el footer
+        color: color del footer en formato RGB
+        
+    Salida:
+        Retorna el frame con footer           
+    """
+    
     font = cv2.FONT_HERSHEY_SIMPLEX
 
     footer = np.zeros((30, frame.shape[1], 3), np.uint8)
@@ -136,11 +147,32 @@ def map_bad_distances(original, result, bad_distances_0, bad_distances_1, df_aux
 
 
 def print_text(frame, text, x, y, font_scale, color, thickness):
+    
+    """
+    Objetivo: añadir texto en el frame.
+
+    Parámetros:
+        frame: frame sobre el cual se colocará el texto
+        text: texto a colocar
+        x, y: posición del texto
+        font_scale: tamaño del texto
+        color: color del texto
+        thickness: grosor de la letra       
+    
+    """
     cv2.putText(frame, text, (x,y), cv2.FONT_HERSHEY_SIMPLEX, font_scale, color, thickness)
 
 
 
 def save_video(out, frame, filename):
+    """
+    Objetivo: añadir texto en el frame.
+
+    Parámetros:
+        frame: frame a guardar
+        filename: nombre de archivo de vídeo de salida
+    
+    """
     width, height, _ = frame.shape
     if out is None:
         fourcc = cv2.VideoWriter_fourcc(*"XVID")
