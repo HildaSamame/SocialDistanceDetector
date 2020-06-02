@@ -100,6 +100,15 @@ while(True):
     if num_frame == final_frame:
         num_frame = 0 
         cap = cv2.VideoCapture(VIDEO_FILE)
+        
+        infractors_list = []
+        infractor_count = 0        
+        header_contents = ['Frame','Person_Id','Time']        
+        
+        if os.path.exists(CSV_FILE):
+          os.remove(CSV_FILE)
+        
+        ut.append_list_as_row(CSV_FILE, header_contents)
     
     """
     Guardar en df_frame los datos correspondientes al valor de numFrame = num_frame.
