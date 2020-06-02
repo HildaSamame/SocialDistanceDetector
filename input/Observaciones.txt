@@ -1,0 +1,3 @@
+Colocar en esta carpeta los archivos de entrada:
+Video: TownCentreXVID.avi
+Datos: TownCentre-groundtruth.top
