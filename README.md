@@ -84,6 +84,13 @@ Se visualiza el resultado:
 <img src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/distancestreet.JPG" data-canonical-src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/result_0.JPG" width="400" height="400" />
 
 
+Cuando sobrepasa el umbral, aparece el mensaje de alerta.
+
+
+
+
+El vídeo de salida se genera en la carpeta __output__, en el siguiente link hay un vídeo de duración de 1 minuto. (https://youtu.be/HrlJvIiEqzg).
+
 ## Contribuyendo 🖇️
 
 Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
