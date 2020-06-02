@@ -40,6 +40,12 @@ A través de Google Earth, se obtuvo la distancia de la pista de dicha calle, qu
 
 ### Explicación de la metodología 🛠️
 
+1. 
+2. 
+3.
+4.
+
+
 ## Ejecutando las pruebas ⚙️
 
 ### Archivos necesarios
@@ -63,7 +69,8 @@ A través de Google Earth, se obtuvo la distancia de la pista de dicha calle, qu
   * ___output/infractors.csv___: archivo csv que contiene los ids de las personas que no cumplieron con el distanciamiento social, incluye el número de frame y el tiempo (minutos y segundos) de detección.
 
 ### Pre procesamiento 🔩
-Ejecutar el programa __preprocess.py__ a través de la consola. _NOTA: Primero ir al directorio donde está el archivo__ 
+Ejecutar el programa __preprocess.py__ a través de la consola. _NOTA: Primero ir al directorio donde está el archivo_. Por ejemplo, en el shell de Anaconda, colocar:
+ 
 
 ```
 python preprocess.py
@@ -72,7 +79,7 @@ python preprocess.py
 Verificar que se haya creado el archivo __matrix.txt__.
 
 ### Procesamiento 🔩
-Ejecutar el programa __main_program.py__ a través de la consola. _NOTA: Primero ir al directorio donde está el archivo__ 
+Ejecutar el programa __main_program.py__ a través de la consola. _NOTA: Primero ir al directorio donde está el archivo_. Por ejemplo, en el shell de Anaconda, colocar:
 
 ```
 python main_program.py
@@ -81,47 +88,28 @@ python main_program.py
 Se visualiza el resultado: 
 
 
-<img src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/result_01.JPG" data-canonical-src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/result_01.JPG" width="960" height="540" />
+<img src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/result_01.JPG" data-canonical-src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/result_01.JPG" width="990" height="540" />
 
 
 Cuando sobrepasa el umbral, aparece el mensaje de alerta.
 
 
-<img src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/result_02.JPG" data-canonical-src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/result_02.JPG" width="960" height="540" />
+<img src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/result_02.JPG" data-canonical-src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/result_02.JPG" width="990" height="540" />
 
 
 El vídeo de salida se genera en la carpeta __output__, en el siguiente link hay un vídeo de duración de 1 minuto. (https://youtu.be/HrlJvIiEqzg).
-
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
 
 ## Autores ✒️
 
 Los colaboradores del presente proyecto son:
 
-* **Hilda Samamé Jimenez** - [hildasamame](https://github.com/HildaSamame)
+* **Hilda Samamé Jimenez** - [hildasamame](https://github.com/HildaSamame) ☕
 
 ## Licencia 📄
 
-Este proyecto está bajo... _la Licencia IT'S FREE ;)_
-
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
+Este proyecto está bajo... _la Licencia 📢 IT'S FREE ;)_
 
 
 
 ---
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
+⌨️ con ❤️ por Hilda Samamé 😊
