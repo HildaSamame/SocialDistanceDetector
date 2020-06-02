@@ -49,7 +49,7 @@ A través de Google Earth, se obtuvo la distancia de la pista de dicha calle, qu
   * ___utils/view.py___: archivo .py donde están las funciones que permiten implementar la generación de la vista.
 
 * 📋 __PRE PROCESAMIENTO__:
-  * ___preprocess/preprocess.py___: archivo .py que permite obtener la matriz de homografía en un archivo txt, para ser utilizada en el programa principal. Además, se realiza el cálculo del ancho de la pista en píxels.
+  * ___preprocess/preprocessing.py___: archivo .py que permite obtener la matriz de homografía en un archivo txt, para ser utilizada en el programa principal. Además, se realiza el cálculo del ancho de la pista en píxels.
   * ___preprocess/matrix.txt___: archivo txt donde se guarda la matriz de homografía para luego ser utilizada en el programa principal
   * ___preprocess/frame_0.jpg__: imagen del primer frame del vídeo, utilizado para calcular la transformación del Bird's Eye View.
 
@@ -71,6 +71,13 @@ Verificar que se haya creado el archivo __matrix.txt__.
 
 ### Procesamiento 🔩
 Ejecutar el programa __main_program.py__ a través de la consola. _NOTA: Primero ir al directorio donde está el archivo__ 
+
+```
+python main_program.py
+```
+
+Se visualiza el resultado: 
+
 
 _Explica que verifican estas pruebas y por qué_
 
