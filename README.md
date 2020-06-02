@@ -36,7 +36,7 @@ La calle del vídeo a analizar corresponde a Cornmarket and Market St. in Oxford
 A través de Google Earth, se obtuvo la distancia de la pista de dicha calle, que corresponde a 5.51 m. _Esto nos ayudará para determinar la distancia mínima a cumplir!_.
 
 
-<img src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/distancestreet.JPG" data-canonical-src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/distancestreet.JPG" width="400" height="400" />
+<img src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/distancestreet.JPG" data-canonical-src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/distancestreet.JPG" width="400" />
 
 ## Ejecutando las pruebas ⚙️
 
@@ -67,11 +67,11 @@ Ejecutar el programa __preprocess.py__ a través de la consola. _NOTA: Primero i
 ```
 python preprocess.py
 ```
-<img src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/warp_01.png" data-canonical-src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/warp_01.png" width="850" height="440" />
+<img src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/warp_01.png" data-canonical-src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/warp_01.png" width="850"  />
 
 
 
-<img src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/warp_02.png" data-canonical-src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/warp_02.png" width="480" height="480" />
+<img src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/warp_02.png" data-canonical-src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/warp_02.png" width="480" />
 
 Verificar que se haya creado el archivo __matrix.txt__.
 
@@ -85,13 +85,13 @@ python main_program.py
 Se visualiza el resultado: 
 
 
-<img src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/result_01.JPG" data-canonical-src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/result_01.JPG" width="1000" height="540" />
+<img src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/result_01.JPG" data-canonical-src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/result_01.JPG" width="1000" />
 
 
 Cuando sobrepasa el umbral, aparece el mensaje de alerta.
 
 
-<img src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/result_02.JPG" data-canonical-src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/result_02.JPG" width="1000" height="540" />
+<img src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/result_02.JPG" data-canonical-src="https://github.com/HildaSamame/SocialDistanceGraph/blob/master/images_readme/result_02.JPG" width="1000" />
 
 
 El vídeo de salida se genera en la carpeta __output__, en el siguiente link hay un vídeo de duración de 1 minuto. (https://youtu.be/HrlJvIiEqzg).
